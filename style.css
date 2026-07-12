@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.logo{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -44,6 +51,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 
   text-align: center;
 }
@@ -63,6 +71,10 @@ a {
 button {
   background-color: #e9b44c;
   color: #2e2622;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+
 }
 
 
