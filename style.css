@@ -1,0 +1,54 @@
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E2622;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: #E9B44C;
+}
+
+.menu{
+    color: #FBF6EF;
+}
+
+.hero-parent{
+    background-image: url(./image/bg-image.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    text-align: center;
+    align-content: center;
+}
+
+.hero-para1{
+    color:#E9B44C;
+}
+
+.hero-heading{
+    color: #FBF6EF;
+}
+
+.hero-para2{
+    color: #F0E9DD;
+}
+
+button{
+    background-color: #E9B44C;
+    color: #2E2622;
+}
