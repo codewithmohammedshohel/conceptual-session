@@ -193,7 +193,7 @@ a {
     padding-bottom: 12px;
 }
 
-
+/* table section styles  */
 .top{
   text-align: center;
   margin: 10px 0;
@@ -223,5 +223,43 @@ thead{
 th{
   color: #E9B44C;
   margin-top: 70px;
+}
+
+/* always open image  section style s */
+.image-container img{
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-container{
+  position: relative;
+}
+
+
+.first{
+  width: 300px;
+  padding: 18px;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 30px;
+  background-color: white;
+  left: 12px;
+}
+
+.second{
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  
 }
 
