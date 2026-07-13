@@ -192,3 +192,36 @@ a {
 .card p{
     padding-bottom: 12px;
 }
+
+
+.top{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.top p {
+  margin: 10px 0;
+  color: #E9B44C
+}
+
+table{
+  width: 50%;
+  border: 2px solid #2E2622;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 2px solid #2E2622;
+  padding: 12px 5px;
+}
+
+thead{
+  background-color: #2E2622;
+}
+
+th{
+  color: #E9B44C;
+  margin-top: 70px;
+}
+
