@@ -263,6 +263,61 @@ th{
   
 }
 
+
+/* why make us different section styles  */
+
+.different-section {
+    text-align: center;
+    background-color: #fbf6ef; /* Light off-white background */
+    padding: 80px 8%;
+}
+
+.features-container div img{
+  /* border: red solid 1px; */
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #c9a695;
+}
+
+.section-label {
+    color: #E9B44C;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.different-section h2 {
+    margin-bottom: 50px;
+    color: #2e2622;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.feature-card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
 /* footer styls  */
 
 .footer-parent {
@@ -297,6 +352,7 @@ th{
 
 .brand-header h3 {
     margin: 0;
+    padding-top: 20px;
 }
 
 /* Typography and Spacing */
