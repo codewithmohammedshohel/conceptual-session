@@ -263,3 +263,74 @@ th{
   
 }
 
+/* footer styls  */
+
+.footer-parent {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 60px 10%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/* Brand Section Alignment */
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.brand-header {
+    display: flex;
+    align-items: center; /* Aligns logo and H3 vertically */
+    gap: 10px;
+}
+
+.brand-header img {
+    width: 40px;
+}
+
+.brand-header h3 {
+    margin: 0;
+}
+
+/* Typography and Spacing */
+.footer-top h3 {
+    color: #ff9900;
+    margin-bottom: 15px;
+}
+
+.footer-top p {
+    margin: 5px 0;
+    color: #cccccc;
+}
+
+/* Divider */
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
